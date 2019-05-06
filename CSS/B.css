@@ -8,6 +8,7 @@
     transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
     /*opacity: 0.6;*/
     /*line-height: 70px;*/
+	min-width: 970px;
 }
 .C-header{ /*更改-頂部白色條*/
     /*transition-delay: 0.3s;*/
