@@ -1,0 +1,670 @@
+.S-1{ /*第一部分*/
+width: 100%;
+height: 730px;
+/*background-color: blue;*/
+/*margin-top: 200px;*/
+background-size:100% ;
+/*background-size: contain;*/
+/*background-image: url('images/GG3.jpg');*/
+/*background-color:#9ddbe4;*/
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-position: center center;
+margin:0 auto;
+top:70px;
+pointer-events: none;
+position: relative;
+z-index: 2;
+}
+.SG{
+	width:100%;height:0px;
+	padding-bottom:50%;
+ 	/*background-color:green;*/
+ 	position:fixed;/*下層的用絕對*/
+ 	/*top: 50px;*/
+ 	z-index:1;/*設定為下層*/
+}
+.carousel .carousel-item {
+  width:100%;
+  height:0px;
+  padding-bottom:50%;
+}
+
+.carousel .carousel-item img {
+  min-height:100px;
+  max-height:970px;
+  object-fit:cover;
+  /*width:100%;height:0px;
+  padding-bottom:50%;*/
+  z-index:2;
+}
+
+div#carouselExampleIndicators	
+{
+	width:100%;
+	height:0px;
+ 	padding-bottom:50%;
+	/*height: 500px;*/
+
+}
+.SH{
+	width: 100%;
+    position: absolute;
+    font-size: 17px;
+    font-family: Arial Black;
+    text-align: right;
+    margin-top: 555px;
+    color: #FFFFFF;
+}
+.FS1{/*固定兩個框框*/
+	width: 800px;
+	background-color: red;
+	height: 400px;
+	top: 80px;
+	position: relative;
+	margin:0 auto;
+}
+.S1-box{
+	width: 400px;
+	height: 400px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	position: absolute;
+}
+.S1-img{
+	/*background-image: url('images/HP2.jpg');*/
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-color: #e0e0e0;
+	overflow: hidden;
+}
+.S1-img img{
+	width: 100%;
+}
+.S1-word{
+	font-size: 12px;
+	text-align: left;
+	padding: 60px;
+	margin-left: 400px;
+	color:#000000;
+}
+.S1-WT{/*姓名*/
+	font-size: 25px;
+}
+.S1-W1{/*標題*/
+	font-size: 17px;
+}
+.S1-W2{/*內容*/
+	font-size: 13px;
+}
+.S1-icon{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	opacity: 0.7;
+	cursor: pointer;
+	z-index: 99;
+	margin-left: 320px;
+}
+.FX-icon{
+	width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 270px;
+}
+.S1-icon2{
+	margin-top: 70px;
+}
+.S1-icon3{
+	margin-top: 140px;
+}
+.S1-icon img{
+	width: 100%;
+}
+.S-2{ /*第二部分*/
+	width: 100%;
+	height: 320px;
+	background-color:#5a7169;
+	float:left;
+	text-align: center;
+	padding: 50px;
+	position: relative;
+	z-index:2;/*設定為下層*/
+}
+.S2-WT{/*標題*/
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.S2-W{
+	/*background-color: red;*/
+	width:100%;
+	font-size: 15px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin:0 auto; 
+	color: #FFFFFF;
+	font-family: 微軟正黑體;
+	margin-top: 15px;
+}
+.S2-E{
+	width:100px;
+	border-radius: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+.S2-E:hover{
+	/*background-color:#bbd298;*/
+	color: #bbd298;;
+	font-weight: bold;
+}
+.S2-E2{
+	/*position: absolute;*/
+	color: #5a7169;
+	cursor: pointer;
+}
+.S2-E2:hover{
+	color: #bbd298;
+}
+.S2-IME{
+	width: 80px;
+	margin-left: 70%;
+	margin-top: 50px;
+}
+.S2-IM{
+	width: 80px;
+	margin-left: 70%;
+	margin-top: -140px;
+	animation: S2-E; /*動畫名稱*/
+	animation-duration: 0.5s;/*動畫時間*/
+}
+.S2-IME img{
+	width: 100%;
+}
+.S2-E:hover .S2-IM{
+	margin-top: -130px;
+}
+@keyframes S2-E { /*淡入動畫*/
+		0% {
+			margin-top: 50px;
+		}
+		100% {
+			margin-top: -140px;
+		}
+}
+.S2-EW{
+	position: absolute;
+	font-family: 微軟正黑體;
+	color: #FFFFFF;
+	margin-left: -30px;
+}
+.S-3{ /*第三部分*/
+	width: 100%;
+	height:auto;
+	background-color:#FFFFFF;
+	float:left;
+	position: relative;
+	z-index:2;/*設定為下層*/
+
+}
+.FS3{/*固定兩個框框*/
+	width: 100%;
+	/*background-color: #efefef;*/
+	height: auto;
+	/*position: relative;*/
+	margin:0 auto;
+	font-size: 0;
+	margin-top: 110px;
+
+	columns: 3; column-rule: silver solid 1px;
+	column-width:500px;
+	width: 100%;
+	column-gap:35px;
+
+}
+.S3-box{
+	width: 90%;
+	height: 600px;
+	/*background-color: red;*/
+	display: inline-block;
+	color: #5a7169;
+}
+.Hid{/*隱藏*/
+	visibility:hidden;
+}
+.S3-word{
+	/*margin-left: 150px;*/
+	padding: 30px 0px;
+	text-align: right;
+}
+.S3-L{
+	animation: S3-L; /*動畫名稱*/
+	animation-duration: 1.5s;/*動畫時間*/
+}
+@keyframes S3-L { /*淡入動畫*/
+		0% {
+			opacity: 0;
+			margin-left:-300px;
+		}
+		100% {
+			opacity: 1;
+			margin-left:0px;
+		}
+}
+.S3-word2{
+	padding: 30px 0px;
+	/*background-color: red;*/
+	float: right;
+	font-family: 微軟正黑體;
+}
+.S3-R{
+	animation: S3-R; /*動畫名稱*/
+	animation-duration: 1.5s;/*動畫時間*/
+}
+@keyframes S3-R { /*淡入動畫*/
+		0% {
+			opacity: 0;
+			margin-right : -300px;
+		}
+		100% {
+			opacity: 1;
+			margin-right: 0px;
+		}
+}
+.S3-WT{
+		font-size: 35px;
+		font-weight:bold;
+		font-family: Arial;
+}
+.S3-WT2{
+		font-size: 15px;
+		font-family: Arial;
+}
+.S3-W1{
+		font-size: 20px;
+		margin-top: 40px;
+}
+.S3-W2{
+		font-size: 15px;
+}
+.S3-W3{
+		font-size: 15px;
+		margin-top: 20px;
+}
+/*.S3-img{
+	float: right;
+	border-left-style:outset;
+	border-top-style:outset;
+	border-width: 15px;
+	border-color: #fdfeb4;
+	background-color: #9ddbe4;
+}*/
+.D{
+	width:6px;height:6px;
+	border-radius:100%;
+	background-color:black;
+	position: absolute;
+	margin-left: -20px;
+	background-color: #c3c4c4;
+}
+.D1{
+	margin-top:155px;
+}
+.D2{
+	margin-top:270px;
+}
+.D3{
+	margin-top:385px;
+}
+.D4{
+	margin-top:500px;
+}
+/*.S3-G{
+	width: 100%;
+	height: 30%;
+	background-color: red;
+	margin-top: 10px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:670px ;
+}*/
+/*.G1{
+	background-image: url('images/G1.jpg');
+	margin-left: -400px;
+	background-position: center center;
+}
+.G2{
+	background-image: url('images/G2.png');
+}
+.G3{
+	background-image: url('images/G3.png');
+	margin-left: -400px;
+	background-position: center center;
+}+*/
+.S-4{ /*第四部分*/
+	width: 100%;
+	height: 250px;
+	background-color:#FFFFFF;
+	float:left;
+	text-align: center;
+	padding: 50px;
+	margin-top: 100px;
+}
+.S4-G{
+	width: 80%;
+	height: 200px;
+	background-color:#dbe3d5;
+	margin:0 auto;
+	text-align: left;
+	border-radius: 30px;
+	/*border-left-style:outset;
+	border-bottom-style:inset;
+	border-width: 15px;
+	border-color: #fdfeb4;*/
+	
+}
+.S4-WT{
+	position: absolute;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 55px;
+	margin-top: -30px;
+	font-family: Arial;
+	color: #5a7169;
+}
+.FX-S4{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	/*line-height: 120px;*/
+	display: inline-block;
+	margin-top: 35px;
+}
+.S4-icon{
+/*	background-color: red;*/
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	background-color: #bbd298;
+	border-radius: 100px;
+	cursor: pointer;
+	text-align: center;
+}
+.S4-C{
+	animation: icon; /*動畫名稱*/
+	animation-duration: 1.5s;/*動畫時間*/
+}
+
+@keyframes icon { /*淡入動畫*/
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+}
+.S4-icon img{
+	width: 100%;
+}
+.S4-icon-margin{
+	margin-left: 60px;
+}
+.S4GY{
+	background-color:#000000;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	display: none;
+    margin-left: -65px;
+    margin-top: -130px;
+    opacity: 0.6;
+    border-radius: 100px;
+}
+.S4W{
+	width: 130px;
+	height: 130px;
+	color:#FFFFFF;
+    line-height: 120px;
+    font-size: 20px;
+    position: absolute;
+	display: none;
+	margin-left: -65px;
+    margin-top: -130px;
+}
+.S-5{ /*第五部分*/
+	width: 100%;
+	height: 450px;
+	/*background-color:red;*/
+	float:left;
+	padding: 50px;
+}
+.S5-word{
+	width: 80%;
+	height: 300px;
+	/*background-color: blue;*/
+	display: inline-block;
+	border-radius: 30px;
+	border-style:dashed;
+	border-width: 2px;
+	border-color: #5a7169;
+}
+/*.S5-img{
+	width: 30%;
+	height: 300px;
+	background-color: green;
+	display: inline-block;
+	border-radius: 30px;
+	margin-left: 5%;
+	background-position: 80% 400%;
+	background-image: url('images/J.png');
+	background-size: 30%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}*/
+
+.FX-S5{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	/*line-height: 120px;*/
+	display: inline-block;
+	margin-top: 35px;
+}
+.S5-WT{
+	font-size: 33px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #5a7169;
+	float: left;
+	margin-left: 40px;
+}
+.S5-WC{
+	animation: S5-W; /*動畫名稱*/
+	animation-duration: 1s;/*動畫時間*/
+}
+@keyframes S5-W { /*淡入動畫*/
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+}
+.S5-W{
+	/*background-color: red;*/
+	width: 750px;
+	/*margin-left: 200px;*/
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-align: left;
+	margin:0 auto; 
+	color: #5a7169;
+	font-family: 微軟正黑體;
+	margin-top: 60px;
+}
+.S-6{ /*第六部分*/
+	width: 100%;
+	height: 850px;
+	/*background-color:red;*/
+	float:left;
+	padding: 50px;
+	text-align: center;
+	font-size: 0;
+}
+.S6-WT{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #5a7169;
+	margin-bottom: 10px;
+}
+.S6-box{
+	width: 400px;
+	height: 600px;
+	/*background-color: green;*/
+	display: inline-block;
+	overflow: hidden;
+}
+.S6-sBox{
+	border-style:solid;
+	border-color: #FFFFFF;
+	border-width: 10px;
+}
+.B1-T{
+	width: 400px;
+	height: 400px;
+	/*background-color:pink;*/
+	background-image: url('../images/B4.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	text-align: left;
+	cursor: pointer;
+}
+.B1-L{
+	width: 200px;
+	height: 200px;
+	/*background-color: blue;*/
+	display: inline-block;
+	background-image: url('../images/B6.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B1-R{
+	width: 200px;
+	height: 200px;
+	/*background-color: red;*/
+	float: right;
+	background-image: url('../images/B8.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B2-L{
+	width: 200px;
+	height: 200px;
+	/*background-color: blue;*/
+	display: inline-block;
+	background-image: url('../images/B9.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B2-R{
+	width: 200px;
+	height: 200px;
+	/*background-color: red;*/
+	float: right;
+	background-image: url('../images/B7.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B2-B{
+	width: 400px;
+	height: 400px;
+	/*background-color:pink;*/
+	display: inline-block;
+	background-image: url('../images/B5.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B3{
+	width: 400px;
+	height: 200px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.B3-1{
+	background-image: url('../images/B3.jpg');
+}
+.B3-2{
+	background-image: url('../images/B1.jpg');
+}
+.B3-3{
+	background-image: url('../images/B2.jpg');
+}
+img{
+	width: 100%;
+}
+.S6GY{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	display: none;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	line-height:380px;
+	opacity: 0.6;
+}
+.G2{
+	line-height:170px;
+	font-size: 20px;
+}
+.G3,.G5{
+	line-height:170px;
+	font-size: 25px;
+}
+.G4{
+	line-height:170px;
+	font-size: 18px;
+}
+.G7,.G8,.G9{
+	line-height:170px;
+	font-size: 30px;
+}
+.gotop{
+	width: 70px;
+	height: 70px;
+	/*background-color: red;*/
+	/*float: right;*/
+	position: fixed;
+	z-index: 99;
+	/*margin-top: -500px;*/
+	right:40px;
+	bottom:20px;
+	cursor: pointer;
+	display: none;
+}
+.footer{
+	width: 100%;
+	background-color: #5a7169;
+	height: 150px;
+	overflow: hidden;
+	color: #FFFFFF;
+	text-align: center;
+}
+.FW{
+	margin-top: 50px;
+}
