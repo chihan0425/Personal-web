@@ -421,8 +421,8 @@ div#carouselExampleIndicators
 	height: 130px;
 	position: absolute;
 	display: none;
-    margin-left: -65px;
-    margin-top: -130px;
+    margin-left: -130px;
+    margin-top: 0px;
     opacity: 0.6;
     border-radius: 100px;
 }
@@ -434,8 +434,8 @@ div#carouselExampleIndicators
     font-size: 20px;
     position: absolute;
 	display: none;
-	margin-left: -65px;
-    margin-top: -130px;
+	margin-left: -130px;
+    margin-top: 0px;
 }
 .S-5{ /*第五部分*/
 	width: 100%;
